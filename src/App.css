@@ -56,6 +56,20 @@
   }
 }
 
+.kontainer {
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+}
+
+li {
+  padding: 10px;
+  border-bottom: 1px solid gray;
+  justify-content: space-between;
+
+  display: flex;
+}
+
 #center {
   display: flex;
   flex-direction: column;
@@ -167,7 +181,7 @@
 
   &::before,
   &::after {
-    content: '';
+    content: "";
     position: absolute;
     top: -4.5px;
     border: 5px solid transparent;

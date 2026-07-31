@@ -33,7 +33,7 @@ function App() {
       <div>
         <h1>Todo list Typescript latihan branch</h1>
       </div>
-      <div>
+      <div className="kontainer">
         <input
           type="text"
           value={inputTeks}
