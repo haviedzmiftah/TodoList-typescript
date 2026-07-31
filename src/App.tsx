@@ -31,7 +31,7 @@ function App() {
   return (
     <>
       <div>
-        <h1>Todo list Typescript</h1>
+        <h1>Todo list Typescript latihan branch</h1>
       </div>
       <div>
         <input
